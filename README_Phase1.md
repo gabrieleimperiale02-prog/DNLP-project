@@ -2,15 +2,6 @@
 
 ## Prompt-Based Abstractive Summarization with Semantic Coverage Control
 
-### 📋 Project Overview
-
-This project extends the **SigExt baseline method** with semantic grouping and coverage-aware prompts to improve abstractive summarization. We investigate whether structured semantic guidance (WHO, WHAT, WHEN, WHERE, NUMERIC) can improve the factual coverage of LLM-generated summaries.
-
-### 👥 Team Members
-
-- [Add your names here]
-
----
 
 ## 📁 Repository Structure
 
@@ -104,49 +95,3 @@ Category presence in reference summaries:
 | WHERE | 93.0% | 93.5% | +0.5% |
 | NUMERIC | 89.0% | 90.0% | +1.0% |
 
----
-
-## 🛠️ Installation & Usage
-
-### Requirements
-```bash
-pip install datasets transformers spacy scikit-learn rouge-score tqdm
-python -m spacy download en_core_web_sm
-```
-
-### Running Phase 1
-1. Open `Deep_NLP_Phase1.ipynb` in Google Colab
-2. Run all cells sequentially
-3. Data files will be saved to `/content/data/`
-4. Download `phase1_results.zip` at the end
-
----
-
-## 📈 Next Steps (Phase 2)
-
-Phase 2 will implement:
-- [ ] Coverage-aware prompt construction
-- [ ] Multi-model evaluation (GPT-3.5, BART, FLAN-T5)
-- [ ] ROUGE and beyond-ROUGE metrics
-- [ ] Statistical significance tests
-- [ ] Adaptive coverage prediction
-
----
-
-## 📚 References
-
-1. **SigExt**: Significant Phrase Extraction for Summarization
-2. **CNN/DailyMail**: Hermann et al., "Teaching Machines to Read and Comprehend"
-3. **spaCy**: Industrial-strength NLP library
-
----
-
-## 📝 License
-
-This project is for educational purposes as part of the Deep NLP course at Politecnico di Torino.
-
----
-
-## 📧 Contact
-
-For questions about this project, please contact the team members listed above.
