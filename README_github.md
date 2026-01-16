@@ -1,4 +1,3 @@
-# Coverage-Aware Abstractive Summarization
 
 ## Key Features
 
